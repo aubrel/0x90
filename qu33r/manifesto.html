@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>THE REV0LUTI0N IS QU33R: M4NIFEST0.</title>
+        <style>
+/**
+* @group Typography.
+*/
+@font-face {
+    font-family: "Dolce Vita";
+    src: url("fonts/Dolce Vita.ttf")
+}
+@font-face {
+    font-family: "TheLightFont";
+    src: url("fonts/TheLightFont.ttf")
+}
+html, body {
+    padding-bottom: 2em;
+    background-color: #000;
+}
+h1 {
+    color: #fff;
+    font: 22px "Dolce Vita", Monospace;
+    font-weight: 700;
+    text-decoration: uppercase;
+    letter-spacing: 1em;
+}
+h2 {
+    color: #fff;
+    font: 35px "Dolce Vita", Monospace;
+}
+h3 {
+    font-size: 25px;
+}
+
+/**
+* @group Links.
+*/
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #000;
+    background-color: #07fce8;
+    transition: background-color .4s;
+}
+
+#MainTitle {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    font: 105px "MODENINE", Monospace;
+    color: #fc1e82;
+    text-transform: uppercase;
+    width: 600px;
+    height: 200px;
+}
+
+#MainColumn {
+    margin-left: 11.7em;
+    position: relative;
+    max-height: 500px;
+    max-width: 750px;
+    line-height: -1em;
+    font: 20px "Hack-Regular", Monospace;
+    color: #fff;
+}
+
+#description, #MainNav {
+    margin: -5em 0em 0em 24em;
+    color: #fff;
+    font: 34px "TheLightFont", Monospace;
+    font-weight: 700;
+    line-height: -3em;
+}
+
+#MainNav {
+    text-align: left;
+}
+
+#MainNav li {
+    display: inline-block;
+    padding-left: 1em;
+    list-style: none;
+}
+
+#MainNav li:first-child {
+    padding-left: 0;
+}
+
+#MainNav ul {
+    padding: 0;
+}
+
+#banner-img {
+    margin: 5em 0em 0em 5em;
+    text-align: left;
+}
+
+/**
+* @group Form.
+*/
+
+input.custom {
+    margin-top: 1em;
+    background-color: #000;
+    border-color: #fff;
+    font: 16px "Helvetica", "Arial", "sans-serif"
+}
+
+p {
+    margin-top: -1em;
+}
+
+.manifesto {
+    margin: 11em 8em 0em 8em;
+    overflow-wrap: normal;
+    color: #fff;
+    font: 20px "TheLightFont", Monospace;
+    }
+
+/*
+** @group Scrolling animation.
+*/ 
+
+.scroll-up {
+    height: 850px;  
+    overflow: hidden;
+    position: relative;
+}
+
+.scroll-up p {
+    position: absolute;
+    margin: 0;
+    line-height: 2em;
+    font: 35px "TheLightFont", Monospace;
+/* Starting position */
+    transform:translateY(70%);
+/* Apply animation to this element */  
+    animation: scroll-up 10s linear infinite;
+    }
+/* Move it (define the animation) */
+    @keyframes scroll-up {
+        0%   { 
+    transform: translateY(100%);       
+    }
+        100% { 
+    transform: translateY(-100%); 
+    }
+}
+        </style>
+    </head>
+    <body>
+        <div id="banner-img">
+            <img src="img/qu33r-banner-2.gif" height=150 alt="WELC0ME 2 THE QU33R REV0LUTI0N" />
+        </div>
+        <div id="MainColumn">
+           <h1>@NYC</h1>
+        </div>
+        <div id="description">
+            <p>
+                Your web resource for all qu33r happenings in NYC.
+            </p>
+            <p>
+                Hack the culture. Qu33r the planet. 
+           </p>
+        </div>
+        <nav id="MainNav">
+            <ul>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="manifesto.html">Manifesto</a></li>
+                <li><a href="qu33rmycity.html">Qu33r my city</a></li>
+            </ul>
+        </nav>
+        <div class="manifesto">
+        <h1>We are the children of the digital frontier.</h1>
+        <div class="scroll-up">
+            <p>
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell us it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell me it is.
+                Technology is not what coporations tell us it is.
+                Technology is not what coporations tell us it is.
+                Technology is not what coporations tell us it is.
+                Technology is not what coporations tell us it is.
+                Technology is not what coporations tell us it is.
+            </p>
+        </div>
+    </body>
+</html>

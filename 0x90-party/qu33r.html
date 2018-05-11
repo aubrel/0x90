@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>THE QU33R REV0LUTI0N I5 HERE</title>
+        <style>
+/**
+* @group Typography.
+*/
+
+@font-face {
+    font-family: "Hack-Regular";
+    src: url("fonts/Hack-Regular.ttf");
+}
+html, body {
+    background-color: #000;
+    margin-left: 1em; 
+}
+
+#MainColumn {
+    display: grid;
+    margin-left: 3em;
+    max-height: 800px;
+    width: 750px;
+    color: #fff;
+    line-height: 1.5em;
+}
+
+.scroll-up {
+    margin: 0em 0em 0em -75em;
+    height: 400px;  
+    overflow: hidden;
+}
+
+.scroll-up p {
+    text-align: center;
+
+ /* Starting position */
+    transform:translateY(100%);
+
+ /* Apply animation to this element */  
+    animation: scroll-up 2s linear infinite;
+}
+
+/* Move it (define the animation) */
+@keyframes scroll-up {
+     0%   { 
+    transform: translateY(100%);       
+}
+     100% { 
+    transform: translateY(-100%); 
+}
+
+}
+
+#banner-img {
+    margin: 5em 0em 0em 35em;
+    text-align: right;
+}
+
+h1, h2, h3 {
+    color: #474747;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 3em;
+}
+
+header {
+    max-width: 100px;
+}
+header h1 {
+    margin: 0;
+}
+h2 {
+    font-size: 30px;
+    margin-top: 2em;
+}
+h3 {
+    font-size: 25px;
+}
+
+#tenets {
+    margin: -2em 0em 0em 55em;
+    font: 18px "Hack-Regular", Monospace;
+}
+
+/**
+* @group Links.
+*/
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+/**
+* @group Animations.
+*/
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+::-moz-selection {
+    background: #71f7c1;
+}
+::selection {
+    background: #71f7c1;
+}
+
+    </style>
+</head>
+    <body>
+    <div id="MainColumn">
+
+    <div id="banner-img">
+        <img src="img/qu33r.banner.gif" height="350px" alt="0x90" />
+    </div>
+
+    <div id="tenets">
+        Test
+    </div>
+
+    <div class="scroll-up">
+        <p><em>The qu33r revolution is here.</em></p>
+        <p>We do things</p>
+    </div>
+    </body>
+</html>

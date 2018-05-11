@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>THE REV0LUTI0N IS QU33R.</title>
+        <style>
+/**
+* @group Typography.
+*/
+@font-face {
+    font-family: "Dolce Vita";
+    src: url("fonts/Dolce Vita.ttf")
+}
+@font-face {
+    font-family: "TheLightFont";
+    src: url("fonts/TheLightFont.ttf")
+}
+html, body {
+    padding-bottom: 2em;
+    background-color: #000;
+}
+h1 {
+    color: #fff;
+    font: 22px "Dolce Vita", Monospace;
+    font-weight: 700;
+    text-decoration: uppercase;
+    letter-spacing: 1em;
+}
+h2 {
+    color: #fff;
+    font: 35px "Dolce Vita", Monospace;
+}
+h3 {
+    font-size: 25px;
+}
+
+/**
+* @group Links.
+*/
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #000;
+    background-color: #07fce8;
+    transition: background-color .4s;
+}
+
+#MainTitle {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    font: 105px "MODENINE", Monospace;
+    color: #fc1e82;
+    text-transform: uppercase;
+    width: 600px;
+    height: 200px;
+}
+
+#MainColumn {
+    margin-left: 11.7em;
+    position: relative;
+    max-height: 500px;
+    max-width: 750px;
+    line-height: -1em;
+    font: 20px "Hack-Regular", Monospace;
+    color: #fff;
+}
+
+#description, #MainNav {
+    margin: -5em 0em 0em 24em;
+    color: #fff;
+    font: 34px "TheLightFont", Monospace;
+    font-weight: 700;
+    line-height: -3em;
+}
+
+#MainNav {
+    text-align: left;
+}
+
+#MainNav li {
+    display: inline-block;
+    padding-left: 1em;
+    list-style: none;
+}
+
+#MainNav li:first-child {
+    padding-left: 0;
+}
+
+#MainNav ul {
+    padding: 0;
+}
+
+#banner-img {
+    margin: 5em 0em 0em 5em;
+    text-align: left;
+}
+
+/**
+* @group Form.
+*/
+
+input.custom {
+    margin-top: 1em;
+    background-color: #000;
+    border-color: #fff;
+    font: 16px "Helvetica", "Arial", "sans-serif"
+}
+
+p {
+    margin-top: -1em;
+}
+
+.listings {
+    margin: 12em 8em 0em 8em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5em;
+    color: #fff;
+    font: 26px "TheLightFont", Monospace;
+}
+        </style>
+    </head>
+    <body>
+        <div id="banner-img">
+            <img src="img/qu33r-banner-2.gif" height=150 alt="WELC0ME 2 THE QU33R REV0LUTI0N" />
+        </div>
+        <div id="MainColumn">
+           <h1>@NYC</h1>
+        </div>
+        <div id="description">
+            <p>
+                Your web resource for all qu33r happenings in NYC.
+            </p>
+            <p>
+                Hack the culture. Qu33r the planet. 
+           </p>
+        </div>
+        <nav id="MainNav">
+            <ul>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="manifesto.html">Manifesto</a></li>
+                <li><a href="qu33rmycity.html">Qu33r my city</a></li>
+            </ul>
+        </nav>
+        <div class="listings">
+        <div><h1>United States</h1></div>
+            <div class="nyc"><h2><a href="index.html">New York City</a></h2></div>
+            <div class="belfast"><h2>Belfast</h2></div>
+            <div class="denver"><h2>Denver</h2></div>
+            <div class="pittsburgh"><h2>Pittsburgh</h2></div>
+        </div>
+    </body>
+</html>
